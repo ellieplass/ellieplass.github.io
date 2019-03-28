@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+      
+        <title>Student Loan Calculator</title>
+       
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1> Student Loan Calculator </h1>
+    <div class="calc">
+        <p> Loan Amount? </p>
+        <input type = "number" id="loan1"> 
+        <p> Interest Amount? In decimals, please!</p>
+        <input type= "number" id ="interest1">
+        <p> Years to pay off?</p>
+        <input type= "number" id="years1">
+        <p>How often does interest compound every year?</p>
+          <select id = "compounded"><option>Choose One:</option></select>
+        
+        
+
+        
+<!--        I wish that I knew how to make it stop at only two decimanl points, but could not figure that out...-->
+                <button id="go">Calculate</button>
+        
+        <p> Monthly Payment</p>
+        <output type=number id ="months1"></output>
+        
+
+        <p> Total Compunded Interest Payed</p>
+        <output type=number id ="tci1"></output>
+        </div>
+    <script src="main.js"></script>
+    </body>
+</html>

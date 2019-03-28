@@ -1,0 +1,35 @@
+html{
+    background-color: azure;
+}
+
+
+
+h1{
+    text-align: center;
+    
+    
+}
+
+.calc{
+    padding: 2em;
+    margin-left:35%;
+    margin-right: 35%;
+    border-style: dotted;
+}
+
+select{
+    width: 100%;;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-style: groove;
+    background-color: rosybrown;
+    border-radius: 50%;
+    padding: 2em;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+}

@@ -1,0 +1,30 @@
+html{
+    background-color: antiquewhite
+    
+    
+}
+
+h1, h2{
+    text-align: center;   
+}
+
+.calculator{
+    width: 27%;
+    margin-left: 35%;
+    background: azure;
+    align-content: center; 
+    padding: 2em;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
+
+input{
+    border: .5px solid grey;
+    padding: 5px;
+    margin: 5px;
+    
+}
